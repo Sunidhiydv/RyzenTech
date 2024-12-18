@@ -4,22 +4,16 @@
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/Sunidhiydv/RyzenTech.git
 ```
 
-2. Go into project
-
-```bash
-cd shadcn-landing-page
-```
-
-3. Install dependencies
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. Run project
+3. Run project
 
 ```bash
 npm run dev
