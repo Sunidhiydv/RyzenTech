@@ -16,7 +16,8 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+
+
 
 interface RouteProps {
   href: string;
@@ -25,20 +26,21 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#features",
-    label: "Features",
+    href: "/",
+    label: "Home",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "/about",
+    label: "About",
   },
   {
-    href: "#pricing",
-    label: "Pricing",
+    href: "/services",
+    label: "Services",
   },
+  
   {
-    href: "#faq",
-    label: "FAQ",
+    href: "contact",
+    label: "Contact Us",
   },
 ];
 
@@ -54,8 +56,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              ShadcnUI/React
+              <img src="RyzenNoBg.png" alt="no image" className="w-40"/>
             </a>
           </NavigationMenuItem>
 
@@ -79,7 +80,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Ryzen Tech
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

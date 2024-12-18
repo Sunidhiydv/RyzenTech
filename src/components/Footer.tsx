@@ -1,4 +1,3 @@
-import { LogoIcon } from "./Icons";
 
 export const Footer = () => {
   return (
@@ -12,8 +11,7 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <img src="RyzenNoBg.png" className="w-40 h-12"></img>
           </a>
         </div>
 
@@ -91,7 +89,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              Services
             </a>
           </div>
 
@@ -101,7 +99,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Projects
             </a>
           </div>
 
@@ -152,14 +150,14 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2024 {" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.linkedin.com/in/leopoldo-miranda/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Ryzen Tech
           </a>
         </h3>
       </section>
