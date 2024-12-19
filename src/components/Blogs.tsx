@@ -38,7 +38,7 @@ export default function Blogs() {
         </span>
       </h2>
       <p className="text-lg md:text-2xl text-gray-300">
-        Empowering innovation through technology and collaboration.
+      Keeping you ahead in the digital landscape!
       </p>
     </div>
   </div>
@@ -52,7 +52,7 @@ export default function Blogs() {
         description="In a world where speed and efficiency are paramount, quantum computing has emerged as the next frontier of technological advancement. Unlike classical computers..."
         readMoreLink="/tech"
       />
-      <BlogCard
+      {/* <BlogCard
         badgeText="Uncategorized"
         badgeColor="bg-red-500"
         date="Nov, Thu, 2024"
@@ -60,7 +60,7 @@ export default function Blogs() {
         title="The Importance of Digital Transformation in Modern Business"
         description="In today’s digital age, businesses must embrace change to stay competitive. Digital transformation has become a key factor in driving business growth, improving efficiency, and enhancing customer experiences. By leveraging..."
         readMoreLink="/tech"
-      />
+      /> */}
     </div>
     <Footer/>
     </>
