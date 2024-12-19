@@ -86,7 +86,7 @@ export const Sponsors = () => {
       className="flex items-center justify-center gap-2 text-gray-300"
     >
       <h3 className="text-xl font-bold flex items-center gap-2">
-        <span className="text-green-950">{icon}</span>
+        <span className="text-green-800">{icon}</span>
         {name}
       </h3>
     </div>

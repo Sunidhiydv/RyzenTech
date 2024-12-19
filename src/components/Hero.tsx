@@ -24,7 +24,7 @@ export const Hero = () => {
           />
         </main>
         <p className="text-lg md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0 animate-slideUp">
-          Providing cutting-edge solutions for ERMS, Apps, Websites, and
+          Providing cutting-edge solutions for CRM, Apps, Websites, and
           RFID-powered hardware technology.
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
