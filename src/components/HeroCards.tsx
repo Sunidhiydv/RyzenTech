@@ -115,7 +115,7 @@ export const HeroCards = () => {
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["CRM", "Custom Apps", "RFID Hardware Integration"].map(
+            {["CRM", "Custom Apps and Websites", "RFID Hardware Integration"].map(
               (benefit) => (
                 <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
