@@ -105,7 +105,7 @@ export function ContactUs() {
           <iframe
             title="Contact Location"
             className="w-full h-80 rounded-lg shadow-lg"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093564!2d-122.08424968468174!3d37.42199997982525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba1b4b32fca9%3A0x2b9d8e3b28d0e8b3!2sGoogleplex!5e0!3m2!1sen!2sus!4v1632452124731!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.0128677588336!2d72.83625941490237!3d19.162973287043557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b758f0fba2fb%3A0xf6b0b17a5ec63c99!2sGoregaon%2C%20Mumbai%2C%20Maharashtra%20400062%2C%20India!5e0!3m2!1sen!2sin!4v1632452124731!5m2!1sen!2sin" 
             allowFullScreen
             loading="lazy"
           ></iframe>

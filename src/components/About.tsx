@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+// import { Statistics } from "./Statistics";
 import { useInView } from "../hooks/useInView.ts";
 import Lottie from "lottie-react";
 import openingLaptopAnimation from "../assets/laptopNoBg.json";
@@ -45,7 +45,7 @@ export const About = () => {
               </p>
             </div>
             <div className="mt-8">
-              <Statistics />
+              {/* <Statistics /> */}
             </div>
           </div>
         </div>

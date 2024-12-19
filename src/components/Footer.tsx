@@ -16,8 +16,8 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
-          <div>
+          <h3 className="font-bold text-lg">About</h3>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -25,9 +25,9 @@ export const Footer = () => {
             >
               Github
             </a>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -35,9 +35,9 @@ export const Footer = () => {
             >
               Twitter
             </a>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -45,12 +45,12 @@ export const Footer = () => {
             >
               Dribbble
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
+          <h3 className="font-bold text-lg">Services</h3>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -78,12 +78,12 @@ export const Footer = () => {
             >
               Desktop
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
-          <div>
+          <h3 className="font-bold text-lg">Blogs</h3>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -111,12 +111,12 @@ export const Footer = () => {
             >
               FAQ
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
-          <div>
+          <h3 className="font-bold text-lg">Contact Us</h3>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -144,7 +144,7 @@ export const Footer = () => {
             >
               Twitch
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -154,12 +154,12 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             Ryzen Tech
           </a>
         </h3>
+        <span className="text-blue-400 underline">info@ryzentech</span>
       </section>
     </footer>
   );
