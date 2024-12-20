@@ -107,21 +107,22 @@ export const HeroCards = () => {
     
   </CardContent>
 
-  <CardFooter className="flex flex-col space-y-4">
-    <div className="space-y-3">
-      {[
-        "Advanced CRM Systems",
-        "Custom Application Development",
-        "RFID Hardware Integration"
-      ].map((feature) => (
-        <span key={feature} className="flex items-center">
-          <Check className="text-green-500 h-5 w-5" /> 
-          <h3 className="ml-2 text-sm">{feature}</h3>
-        </span>
-      ))}
-    </div>
-  </CardFooter>
-</Card>
+        <hr className="w-4/5 m-auto mb-4" />
+
+        <CardFooter className="flex">
+          <div className="space-y-4">
+            {["CRM", "Custom Apps", "RFID Hardware Integration"].map(
+              (benefit) => (
+                <span key={benefit} className="flex">
+                  <Check className="text-green-500" />{" "}
+                  <h3 className="ml-2">{benefit}</h3>
+                </span>
+              )
+            )}
+          </div>
+        </CardFooter>
+      </Card>
+
       {/* Service */}
       <Card className="w-[90%] lg:w-[350px] lg:absolute lg:-right-[10px] lg:bottom-[35px] drop-shadow-xl shadow-black/10 dark:shadow-white/10 animate-zoomIn">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">

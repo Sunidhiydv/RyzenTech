@@ -6,6 +6,8 @@ import { ContactUs } from "./components/ContactUs";
 import AboutMain from "./components/AboutMain";
 import ServicesMain from "./components/ServicesMain";
 import TestimonalsMain from "./components/TestimonalsMain";
+import Blogs from "./components/Blogs";
+import Tech from "./components/blogs/Tech";
 
 
 const appRouter = createBrowserRouter([
@@ -28,6 +30,14 @@ const appRouter = createBrowserRouter([
   {
     path : '/testimonials',
     element : <TestimonalsMain/>
+  },
+  {
+    path : '/blogs',
+    element : <Blogs/>
+  },
+  {
+    path : '/tech',
+    element : <Tech/>
   },
   
 ])
