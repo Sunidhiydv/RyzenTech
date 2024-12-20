@@ -89,44 +89,41 @@ export const HeroCards = () => {
       <TestimonialCard/>
 
       {/* Pricing */}
-      <Card className="w-[90%] lg:w-72 lg:absolute lg:top-[150px] lg:left-[50px] drop-shadow-xl shadow-black/10 dark:shadow-white/10 animate-slideUp mt-4">
-        <CardHeader>
-          <CardTitle className="flex items-center justify-between">
-            Starter Plan
-            <Badge variant="secondary" className="text-sm text-primary">
-              Best Value
-            </Badge>
-          </CardTitle>
-          <div>
-            <span className="text-3xl font-bold">2.5K</span>
-            <span className="text-muted-foreground"> rupees</span>
-          </div>
+      <Card className="w-[90%] lg:w-96 lg:absolute lg:top-[150px] lg:left-[-40px] drop-shadow-xl shadow-black/10 dark:shadow-white/10 animate-slideUp mt-4">
+  <CardHeader>
+    <CardTitle className="flex items-center text-xl">
+      Empowering businesses with innovative technology solutions that drive growth
+    </CardTitle>
+  </CardHeader>
 
-          <CardDescription>
-            Affordable solutions for building your website.
-          </CardDescription>
-        </CardHeader>
+  <CardContent>
+    <div className="space-y-4">
+      <div className="space-y-2">
+        <h3 className="font-semibold text-base">Enterprise Integration</h3>
+        <p className="text-sm text-muted-foreground">
+          Seamless integration of CRM, Custom apps, Websites and much more
+        </p>
+      </div>
+    </div>
+    
+    <Button className="w-full mt-6">Explore Solutions</Button>
+  </CardContent>
 
-        <CardContent>
-          <Button className="w-full">Get Started</Button>
-        </CardContent>
-
-        <hr className="w-4/5 m-auto mb-4" />
-
-        <CardFooter className="flex">
-          <div className="space-y-4">
-            {["CRM", "Custom Apps", "RFID Hardware Integration"].map(
-              (benefit) => (
-                <span key={benefit} className="flex">
-                  <Check className="text-green-500" />{" "}
-                  <h3 className="ml-2">{benefit}</h3>
-                </span>
-              )
-            )}
-          </div>
-        </CardFooter>
-      </Card>
-
+  <CardFooter className="flex flex-col space-y-4">
+    <div className="space-y-3">
+      {[
+        "Advanced CRM Systems",
+        "Custom Application Development",
+        "RFID Hardware Integration"
+      ].map((feature) => (
+        <span key={feature} className="flex items-center">
+          <Check className="text-green-500 h-5 w-5" /> 
+          <h3 className="ml-2 text-sm">{feature}</h3>
+        </span>
+      ))}
+    </div>
+  </CardFooter>
+</Card>
       {/* Service */}
       <Card className="w-[90%] lg:w-[350px] lg:absolute lg:-right-[10px] lg:bottom-[35px] drop-shadow-xl shadow-black/10 dark:shadow-white/10 animate-zoomIn">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
