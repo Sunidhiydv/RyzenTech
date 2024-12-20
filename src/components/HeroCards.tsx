@@ -1,5 +1,4 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
 import { Button} from "@/components/ui/button";
 import {
   Card,
@@ -106,7 +105,6 @@ export const HeroCards = () => {
       </div>
     </div>
     
-    <Button className="w-full mt-6">Explore Solutions</Button>
   </CardContent>
 
   <CardFooter className="flex flex-col space-y-4">

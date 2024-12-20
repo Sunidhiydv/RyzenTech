@@ -77,7 +77,7 @@ export function ContactUs() {
               </label>
               <textarea
                 id="message"
-                rows="4"
+                rows={4}
                 placeholder="Your Message"
                 className="mt-2 block w-full p-3 rounded-md bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary"
               ></textarea>
