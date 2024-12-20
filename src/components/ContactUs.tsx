@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
+import Contact from "./Contact";
 
 export function ContactUs() {
   useEffect(() => {
@@ -40,7 +41,7 @@ export function ContactUs() {
 
 
       {/* Form Section */}
-      <div
+      {/* <div
         className="flex justify-center items-center h-screen w-full"
         data-aos="zoomIn"
       >
@@ -48,7 +49,9 @@ export function ContactUs() {
           <h3 className="text-2xl font-semibold text-white mb-6 text-center">
             Get in Touch
           </h3>
-          <form className="space-y-6">
+          <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="6dc44209-01de-45c1-bb88-b8035311579b"/>
+
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-300">
                 Name
@@ -82,6 +85,8 @@ export function ContactUs() {
                 className="mt-2 block w-full p-3 rounded-md bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary"
               ></textarea>
             </div>
+            <input type="checkbox" name="botcheck" className="hidden" />
+
             <button
               type="submit"
               className="w-full bg-gradient-to-r from-primary to-blue-500 text-white py-3 rounded-md hover:scale-105 transition-transform duration-300"
@@ -90,7 +95,9 @@ export function ContactUs() {
             </button>
           </form>
         </div>
-      </div>
+      </div> */}
+
+      <Contact/>
 
       {/* Contact Information */}
       <div className="flex flex-col md:flex-row justify-between mt-12 gap-10">
